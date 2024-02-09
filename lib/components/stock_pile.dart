@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 
-import '../klondike_game.dart';
+import '../1.paper_card_game.dart';
 import 'card.dart';
 import 'pile.dart';
 import 'waste_pile.dart';

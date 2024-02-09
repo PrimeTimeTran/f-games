@@ -1,6 +1,6 @@
 import 'package:flame/components.dart';
 
-import '../klondike_game.dart';
+import '../1.paper_card_game.dart';
 import 'card.dart';
 import 'pile.dart';
 
