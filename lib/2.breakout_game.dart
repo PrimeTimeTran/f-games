@@ -10,6 +10,8 @@ import 'components/stock_pile.dart';
 import 'components/tableau_pile.dart';
 import 'components/waste_pile.dart';
 
+// Breakout, tetris, flappybird, angrybirds, racegame
+
 Sprite klondikeSprite(double x, double y, double width, double height) {
   return Sprite(
     Flame.images.fromCache('red_knives.png'),

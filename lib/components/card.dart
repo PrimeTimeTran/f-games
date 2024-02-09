@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 
-import '../1.paper_card_game.dart';
+import '../1.card_games.dart';
 import 'pile.dart';
 import 'rank.dart';
 import 'suit.dart';

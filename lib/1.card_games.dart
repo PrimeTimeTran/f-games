@@ -10,6 +10,8 @@ import 'components/stock_pile.dart';
 import 'components/tableau_pile.dart';
 import 'components/waste_pile.dart';
 
+// Mine...? Solitaire, 21, Poker, Hold'em
+
 Sprite klondikeSprite(double x, double y, double width, double height) {
   return Sprite(
     Flame.images.fromCache('klondike-sprites.png'),

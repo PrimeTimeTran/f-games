@@ -1,6 +1,6 @@
 import 'package:flame/components.dart';
 
-import '../1.paper_card_game.dart';
+import '../1.card_games.dart';
 
 class Suit {
   static final List<Suit> _singletons = [
