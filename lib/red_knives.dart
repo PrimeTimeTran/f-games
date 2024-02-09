@@ -12,7 +12,7 @@ import 'components/waste_pile.dart';
 
 Sprite klondikeSprite(double x, double y, double width, double height) {
   return Sprite(
-    Flame.images.fromCache('klondike-sprites.png'),
+    Flame.images.fromCache('red_knives.png'),
     srcPosition: Vector2(x, y),
     srcSize: Vector2(width, height),
   );
@@ -31,7 +31,7 @@ class RedKnives extends FlameGame {
 
   @override
   Future<void> onLoad() async {
-    await Flame.images.load('klondike-sprites.png');
+    await Flame.images.load('red_knives.png');
 
     final stock = StockPile(position: Vector2(cardGap, cardGap));
     final waste =
